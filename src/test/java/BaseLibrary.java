@@ -16,7 +16,7 @@ public class BaseLibrary {
         AppiumDriver driver;
 
         System.out.println("hello123");
-        system.out.println("hello122");
+        System.out.println("hello122");
 
         DesiredCapabilities cap=new DesiredCapabilities();
         cap.setCapability("appium:platformName","Android");
