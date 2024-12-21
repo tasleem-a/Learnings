@@ -14,8 +14,8 @@ public class BaseLibrary {
     public static void main(String[] args) throws MalformedURLException, InterruptedException {
 
         AppiumDriver driver;
-system.out.println("hello123");
-        system.out.println("hello2");
+        System.out.println("hello123");
+        system.out.println("hello122");
         DesiredCapabilities cap=new DesiredCapabilities();
         cap.setCapability("appium:platformName","Android");
         cap.setCapability( "appium:deviceName", "48b1560c");
@@ -27,7 +27,7 @@ system.out.println("hello123");
         Thread.sleep(3000);
         //locate the elements
         system.out.println("hello123");
-        system.out.println("hello2");
+        system.out.println("hello122");
         system.out.println("hello123");
         system.out.println("hello2");
         driver.findElement(By.xpath("//*[@text='3']")).click();
