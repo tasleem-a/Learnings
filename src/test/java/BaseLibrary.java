@@ -14,8 +14,10 @@ public class BaseLibrary {
     public static void main(String[] args) throws MalformedURLException, InterruptedException {
 
         AppiumDriver driver;
+
         System.out.println("hello123");
         system.out.println("hello122");
+
         DesiredCapabilities cap=new DesiredCapabilities();
         cap.setCapability("appium:platformName","Android");
         cap.setCapability( "appium:deviceName", "48b1560c");
