@@ -27,6 +27,8 @@ public class BaseLibrary {
         //locate the elements
         system.out.println("hello123");
         system.out.println("hello2");
+        system.out.println("hello123");
+        system.out.println("hello2");
         driver.findElement(By.xpath("//*[@text='3']")).click();
         driver.findElement(By.id("com.miui.calculator:id/btn_plus_s")).click();
         driver.findElement(By.xpath("//*[@text='9']")).click();
