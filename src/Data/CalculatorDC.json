@@ -1,0 +1,8 @@
+{
+  "platformName": "Android",
+  "deviceName": "48b1560c",
+  "platformVersion": "9",
+  "automationName": "uiautomator2",
+  "appPackage": "com.miui.calculator",
+  "appActivity": "com.miui.calculator.cal.CalculatorActivity"
+}
