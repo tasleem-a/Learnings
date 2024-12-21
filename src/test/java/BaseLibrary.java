@@ -14,8 +14,7 @@ public class BaseLibrary {
     public static void main(String[] args) throws MalformedURLException, InterruptedException {
 
         AppiumDriver driver;
-        system.out.println("hello123");
-        system.out.println("hello2");
+
         DesiredCapabilities cap=new DesiredCapabilities();
         cap.setCapability("appium:platformName","Android");
         cap.setCapability( "appium:deviceName", "48b1560c");
@@ -26,6 +25,8 @@ public class BaseLibrary {
         driver=new AndroidDriver(new URL("http://127.0.0.1:4723/"),cap);
         Thread.sleep(3000);
         //locate the elements
+        system.out.println("hello123");
+        system.out.println("hello2");
         driver.findElement(By.xpath("//*[@text='3']")).click();
         driver.findElement(By.id("com.miui.calculator:id/btn_plus_s")).click();
         driver.findElement(By.xpath("//*[@text='9']")).click();
